@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>EBZ Cutz — Premium Barber in Ikorodu</title>
+  <meta name="description" content="Precision haircuts, fades and beard grooming in Ikorodu. Request your next appointment with EBZ Cutz on WhatsApp.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta property="og:title" content="EBZ Cutz — Ikorodu">
+  <meta property="og:description" content="Sharp, considered grooming. See the work and request your appointment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://example.com/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0c'/%3E%3Cpath d='M18 16h15c11 0 17 6 17 16s-6 16-17 16H18V16Zm10 8v16h5c5 0 8-3 8-8s-3-8-8-8h-5Z' fill='%23c89b5b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="demo-banner" id="demoBanner" hidden>Private website concept prepared for <span data-business-name>EBZ Cutz</span>.</div>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="EBZ Cutz home"><span class="brand-mark">D</span><span data-business-name>EBZ Cutz</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span class="sr-only">Menu</span></button>
+    <nav id="siteNav" aria-label="Primary navigation">
+      <a href="#services">Services</a><a href="#work">Our work</a><a href="#barber">The barber</a><a href="#visit">Visit</a>
+    </nav>
+    <button class="button button-small header-cta" data-open-booking>Book a cut</button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Ikorodu · Precision grooming</p>
+        <h1>Walk out<br><em>sharper.</em></h1>
+        <p class="hero-lede">Considered cuts, clean finishes and a look shaped around you—not copied from everyone else.</p>
+        <div class="hero-actions"><button class="button" data-open-booking>Book on WhatsApp</button><a class="text-link" href="#work">Explore our work <span>↘</span></a></div>
+        <div class="hero-meta"><span><b id="openStatus">Checking hours</b><small>Today</small></span><span><b>Ikorodu</b><small>Lagos, Nigeria</small></span><span id="ratingMeta" hidden><b id="ratingText"></b><small>Google rating</small></span></div>
+      </div>
+      <div class="hero-visual image-shell image-shell-hero" data-fallback="DELUXE / CUTZ">
+        <img src="assets/hero-barber.webp" width="1600" height="2400" alt="Barber shaping a client's haircut in a modern barbershop">
+        <div class="image-caption"><span>01</span><p>Your style,<br>properly considered.</p></div>
+      </div>
+      <p class="scroll-cue">Scroll to discover <span>↓</span></p>
+    </section>
+
+    <section class="trust-strip" aria-label="Business details">
+      <div><span class="dot"></span><strong id="trustStatus">Open today</strong><small>9:00 AM–9:00 PM</small></div>
+      <div><strong>Walk-ins welcome</strong><small>Appointments recommended</small></div>
+      <div><strong>76 Ayangburen Road</strong><small>Ikorodu, Lagos</small></div>
+      <div><strong>WhatsApp booking</strong><small>Request in under a minute</small></div>
+    </section>
+
+    <section class="section services" id="services">
+      <header class="section-head reveal"><div><p class="eyebrow">The menu</p><h2>Choose your<br>next look.</h2></div><p>Every service begins with a quick conversation about your hair, routine and the finish you want.</p></header>
+      <div class="service-list" id="serviceList"></div>
+      <p class="placeholder-note">Demo prices are clearly marked. Replace them with the shop’s confirmed prices before publishing.</p>
+    </section>
+
+    <section class="section gallery-section" id="work">
+      <header class="section-head reveal"><div><p class="eyebrow">Selected work</p><h2>Proof is in<br>the finish.</h2></div><p>Explore the cuts. Choose a direction. We’ll refine it around your features and hair.</p></header>
+      <div class="filter-row" id="galleryFilters" aria-label="Filter gallery"></div>
+      <div class="gallery" id="gallery"></div>
+      <p class="placeholder-note">Temporary portfolio photography is shown for this private concept.</p>
+    </section>
+
+    <section class="section return-section" id="experience">
+      <div class="return-title reveal"><p class="eyebrow">The Deluxe standard</p><h2>A good cut looks right today. A considered cut grows out right, too.</h2></div>
+      <div class="benefit-grid">
+        <article class="reveal"><span>01</span><h3>We listen first</h3><p>Start with the result you want, how you style your hair and what has not worked before.</p></article>
+        <article class="reveal"><span>02</span><h3>Built around you</h3><p>Your hairline, growth pattern and face shape guide the finish—not a one-cut-fits-all routine.</p></article>
+        <article class="reveal"><span>03</span><h3>Clean, precise work</h3><p>Careful detailing and a professional setup help every appointment feel considered.</p></article>
+        <article class="reveal"><span>04</span><h3>Simple to arrange</h3><p>Send the exact service, date and time you want through WhatsApp. The shop confirms availability.</p></article>
+      </div>
+    </section>
+
+    <section class="section barber-section" id="barber">
+      <div class="barber-image image-shell" data-fallback="THE / CRAFT"><img src="assets/lead-barber.webp" loading="lazy" width="1400" height="2100" alt="Barber focused on detailing a client's haircut"></div>
+      <div class="barber-copy reveal"><p class="eyebrow">Meet your barber</p><h2 id="barberName">Your lead barber</h2><p class="barber-role" id="barberRole">Precision cuts · fades · beard work</p><p id="barberBio">A proper appointment is more than taking length off. It is a conversation, a careful process and a finish you can confidently wear.</p><div class="button-row"><button class="button" data-open-booking data-barber="Your lead barber">Book this barber</button><a class="text-link" id="instagramLink" href="https://www.instagram.com/ebcutz._/reel/Czub6HIrWGj/" hidden>Instagram ↗</a></div><p class="placeholder-note">Replace this profile with the barber’s confirmed name, story and portrait.</p></div>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <header class="section-head reveal"><div><p class="eyebrow">Client notes</p><h2>What clients<br>say.</h2></div><p>Review placeholders are excluded until genuine customer feedback is supplied.</p></header>
+      <div class="reviews" id="reviewsList"><article class="review-empty"><p>Real client words belong here.</p><span>Add verified Google or WhatsApp feedback before launch.</span></article></div>
+    </section>
+
+    <section class="section visit-section" id="visit">
+      <div class="visit-info reveal"><p class="eyebrow">Find the chair</p><h2>Right in the heart<br>of Ikorodu.</h2><address id="address">76 Ayangburen Road, Ikorodu, Lagos, Nigeria</address><div class="hours" id="hoursList"></div><div class="button-row"><a class="button" id="directionsLink" href="#">Get directions</a><a class="button button-ghost" id="callLink" href="tel:+2349156324240">Call the shop</a></div></div>
+      <div class="map-card"><div><span>06°36′N<br>03°30′E</span><b>IKD</b></div><p>Tap below to open your maps app.</p><a id="mapLink" href="#">Open map ↗</a></div>
+    </section>
+
+    <section class="final-cta"><p class="eyebrow">Your next cut</p><h2>Ready to look<br><em>properly sharp?</em></h2><p>Tell us the service, day and time you prefer. We’ll confirm availability on WhatsApp.</p><div class="button-row"><button class="button" data-open-booking>Book on WhatsApp</button><a class="button button-ghost" id="finalCallLink" href="tel:+2349156324240">Call the shop</a></div></section>
+  </main>
+
+  <footer><div class="footer-brand"><span class="brand-mark">E</span><strong data-business-name>EBZ Cutz</strong></div><div><p>12 Ogunneye Street, Grammar School,<br>Ikorodu, Lagos</p><a id="footerPhone" href="tel:+2349156324240">0813 755 0126</a></div><div><a href="#services">Services</a><a href="#work">Our work</a><a href="#visit">Visit</a></div><div><p>© <span id="year"></span> <span data-business-name>EBZ Cutz</span></p><a href="https://fathiu.com" target="_blank" rel="noopener">Concept by Mustapha Fathiu ↗</a></div></footer>
+
+  <div class="mobile-book"><button class="button" data-open-booking>Book a cut <span>↗</span></button></div>
+
+  <div class="modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="bookingTitle" hidden>
+    <div class="modal-backdrop" data-close-booking></div>
+    <div class="booking-panel">
+      <button class="close-button" data-close-booking aria-label="Close booking">×</button>
+      <div class="booking-top"><p class="eyebrow">Request an appointment</p><h2 id="bookingTitle">Your next cut,<br>in a few taps.</h2><div class="progress" aria-hidden="true"><span id="progressBar"></span></div><p class="step-label" id="stepLabel">Step 1 of 6</p></div>
+      <form id="bookingForm" novalidate>
+        <section class="booking-step is-active" data-step="1"><fieldset><legend>Select a service</legend><div class="choice-grid" id="bookingServices"></div></fieldset></section>
+        <section class="booking-step" data-step="2"><fieldset><legend>Choose a barber</legend><div class="choice-grid" id="bookingBarbers"></div></fieldset></section>
+        <section class="booking-step" data-step="3"><fieldset><legend>Choose a preferred date</legend><label class="field"><span>Date</span><input type="date" name="date" required></label></fieldset></section>
+        <section class="booking-step" data-step="4"><fieldset><legend>Choose a preferred time</legend><div class="choice-grid choice-grid-time" id="bookingTimes"></div></fieldset></section>
+        <section class="booking-step" data-step="5"><fieldset><legend>Tell us who you are</legend><label class="field"><span>Your name</span><input name="name" autocomplete="name" required maxlength="60" placeholder="e.g. Fathiu"></label><label class="field"><span>Note <small>Optional</small></span><textarea name="note" maxlength="240" rows="3" placeholder="Anything your barber should know?"></textarea></label></fieldset></section>
+        <section class="booking-step" data-step="6"><fieldset><legend>Review your request</legend><div class="booking-summary" id="bookingSummary"></div><p class="demo-note" id="demoNote" hidden>This is an interactive demo. WhatsApp sending is disabled until the verified shop number is added and demo mode is switched off.</p><p class="request-note">This is a request, not a confirmed appointment. The shop will confirm availability through WhatsApp.</p></fieldset></section>
+        <p class="form-error" id="formError" role="alert" aria-live="polite"></p>
+        <div class="booking-nav"><button type="button" class="button button-ghost" id="backButton" hidden>Back</button><button type="button" class="button" id="nextButton">Continue</button></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image" hidden><div class="lightbox-backdrop" data-close-lightbox></div><button class="close-button" data-close-lightbox aria-label="Close gallery">×</button><button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous image">←</button><figure><div class="image-shell" id="lightboxImage"></div><figcaption id="lightboxCaption"></figcaption></figure><button class="lightbox-nav next" id="lightboxNext" aria-label="Next image">→</button></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
