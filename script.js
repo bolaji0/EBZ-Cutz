@@ -10,7 +10,7 @@ const BUSINESS_CONFIG = {
   phoneInternational: '+2348138906940', // REPLACE WITH THE VERIFIED WHATSAPP NUMBER
   whatsappVerified: true, // set true only after confirming the number
   email: 'ebzcutz@gmail.com', instagram: 'https://www.instagram.com/ebz_touch_cutz/',
-  mapsUrl: 'https://www.google.com/search?q=ebz+cutz&oq=ebz+cutz&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigATIHCAIQIRiPAjIHCAMQIRiPAtIBCDM4NjZqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8&zx=1790172301433#:~:text=shop%20in%20Ikorodu-,Directions,-Save',
+  mapsUrl: 'https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigATIHCAIQIRiPAjIHCAMQIRiPAtIBCDM4NjZqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=ng&sa=X&geocode=KRE-aUJI7zsQMeMbiRGG-vjS&daddr=12+Ogunneye+Street,+Grammar+School,+Ikorodu,+Lagos,+Ikorodu,+Lagos',
   rating: '5', reviewCount: '5', currency: '₦', demoMode: false,
   openingHours: { mondayFriday: '9:00 AM – 9:00 PM', saturday: '9:00 AM – 9:00 PM', sunday: '9:00 AM – 9:00 PM' },
   structuredHours: { 0:[9,21],1:[9,21],2:[9,21],3:[9,21],4:[9,21],5:[9,21],6:[9,21] },
